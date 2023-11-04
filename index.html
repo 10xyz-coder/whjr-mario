@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <title>Mario Copy Paste but better</title>
+    <!-- link p5.js and its addons like p5.dom.js or p5.sound.js -->
+    <script src="lib/p5.min.js" type="text/javascript"></script>
+    <!-- link p5.play.js -->
+    <script src="lib/p5.play.js" type="text/javascript"></script>
+    <!-- link p5.dom.js -->
+    <script src="lib/p5.dom.js" type="text/javascript"></script>
+
+    <!-- link your javascript sketch -->
+    <script src="scripts/sprites.js" type="text/javascript"></script>
+
+    <script src="main.js" type="text/javascript" preload></script>
+
+    <script src="characters_environment.js" type="text/javascript"></script>\
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+  </head>
+  <body>
+    <center>
+      <div id="headingMain">
+        <h1 class="ui inverted block red header">Mario Game</h1>
+        <button class="ui icon red button">
+          <i class="help icon"></i>
+        </button>
+      </div>
+
+      <div class="ui tiny modal" id="modal">
+        <div class="ui header">How to Play</div>
+        <div class="content" id="modal-content">
+          <p>For Desktop Users: Use Arrow Keys to Move, and Space to revive</p>
+          <p>For Smart Fridge Users: Use Head to navigate. idk how to revive.</p>
+          <p>For Mobile users: Go Play another game</p>
+        </div>
+      </div>
+
+      <div id="canvas"></div>
+      <div id="game_console"></div>
+
+      <div id="credits"><b>Credits to Nintendo for making the Mario Franchise</b></div>
+      
+    </center>
+  </body>
+</html>
